@@ -1,0 +1,28 @@
+# GitHub Pages Configuration
+theme: null
+title: YOLO11 Multi-Layer Detection System
+description: 4개의 YOLO11 모델을 계층적으로 활용한 고정밀 객체 검출 시스템
+author: aebonlee
+url: https://aebonlee.github.io
+baseurl: /YOLO11_study
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude files from build
+exclude:
+  - '*.py'
+  - '*.ipynb'
+  - 'requirements.txt'
+  - 'first/'
+  - 'second/'
+  - '3rd/'
+  - 'uploads/'
+  - 'results/'
+  - '__pycache__/'
+  - '.git/'
+  - 'templates/'
+  - 'app.py'
